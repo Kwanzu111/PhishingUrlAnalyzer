@@ -77,7 +77,7 @@ int main() {
                              (risk_score >= 40) ? "risk-medium" : "risk-low";
 
     // Output HTML
-    printf("<html>\n<head>\n<link rel='stylesheet' href='../styles.css'>\n</head>\n");
+    printf("<html>\n<head>\n<link rel='stylesheet' href='styles.css'>\n</head>\n");
     printf("<body>\n<div class='container'>\n");
 
     printf("<h2>Phishing Analysis Report</h2>\n");
