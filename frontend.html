@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CHECK THE URL FOR PHISHING</h1>
+        <br>
+        <!--This submits the form to the cprogram 'analyzer' in the (cgi-bin=directory) via http post-->
+        <!--cgi-bin is common for executable scripts to process form data-->
+        <!--method=post this is a methoud of sending data and its not visible in the url the dat is hidden from the history-->
+        <br>
+        <br>
+        <form action="/cgi-bin/analyzer" method="POST">
+        <input type="text" name="URL" placeholder="Enter URL...">
+        <br>
+        <br>
+        <button type="submit">ANALYZE</button>
+    </div>
+    
+</body>
+</html>
