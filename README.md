@@ -15,7 +15,7 @@ Installation & Setup
 
 1. Clone the Repository
 
-       git clone https://github.com/your-username/phishing-analyzer.git
+       git clone https://github.com/kwanzu111/phishing-analyzer.git
    
        cd phishing-analyzer
 
