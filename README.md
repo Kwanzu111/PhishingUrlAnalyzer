@@ -15,9 +15,9 @@ Installation & Setup
 
 1. Clone the Repository
 
-       git clone https://github.com/kwanzu111/phishing-analyzer.git
+       git clone https://github.com/kwanzu111/PhishingUrlAnalyzer.git
    
-       cd phishing-analyzer
+       cd PhishingUrlAnalyzer
 
 
 3. Set Up the Web Server (Apache or Nginx with CGI)
