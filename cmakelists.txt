@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.10)
 project(MyProject)
 
-add_executable(/home/runner/work/PhishingUrlAnalyzer/PhishingUrlAnalyzer)
+add_executable(MyProject backend.c)
