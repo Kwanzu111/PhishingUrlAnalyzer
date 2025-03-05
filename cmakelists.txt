@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.10)
-project(MyProject)
+project(PhishingUrlAnalyzer)
 
-add_executable(MyProject backend.c)
+add_executable(PhishingUrlAnalyzer backend.c)  # Replace backend.c with actual C source files
